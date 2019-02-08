@@ -1,15 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
-a{display: block; padding: 0.5%}
-main{display: flex;  }
+
+main{isplay: flex;  }
 /*nav{display: table-cell}
 .main{} */
+
 .line{background-color:#99A2A2; width: 20px; position: relative; margin-right: 10px; }
 /* hr{width:5px; background-color: red; size:1em;} */
-code{background-color: #eff0f1;}
-/* @media (landscape){.line{background-color:#99A2A2; width: 20px; position: relative; height: 115vh; margin-right: 10px }}
-@media (portrait){.line{background-color:#99A2A2; width: 20px; position: relative; height: 150vh; margin-right: 10px }}  */
-nav{font-family: Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif; border-right-width: 2px; border-right-style: solid; margin-right:3%; border-right-color:#99A2A2; padding-right: 1%; overflow-y: scroll; overflow-x:hidden;  }
+code{background-color: #eff0f1; display: block; padding-left: 1%; margin-left: 1%;}
+ 
+nav{font-family: Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif; border-right-width: 2px; border-right-style: solid; margin-right:3%; border-right-color:#99A2A2; padding-right: 1%; overflow-y: scroll; float: left;height: 100%;  }
 
-a.nav-link{ padding-bottom: 5%;}
-.documentation{display: block;}
+.nav-link{ padding-bottom: 3%;  display: block;  }
+.documentation{}
+
+
