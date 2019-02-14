@@ -1,19 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
-
-
-/*nav{display: table-cell}
-.main{} 
-nav{font-family: Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif; border-right-width: 2px; border-right-style: solid;border-right-color:#99A2A2; padding-right: 1%; overflow-y: scroll; float: left;height: 100vh; width: 25%;  }
-*/
-
 .line{background-color:#99A2A2; width: 20px; position: relative; margin-right: 10px; }
-/* hr{width:5px; background-color: red; size:1em;} */
+
 code{background-color: #eff0f1; display: block; padding-left: 1%; margin-left: 1%;}
  
+section header {font-size: 1.5em;}
 
+section p {line-height: 2em;word-spacing: 5% ;font-size: 1.2em}
 
-.nav-link{ padding-bottom: 2%;  display: block;  }
-.documentation{}
+br {margin-bottom: 1%;background-color: red;}
 
+.why_css_error {line-height: 2em;word-spacing: 5% ;font-size: 1.2em}
 
+ul{ line-height: 2em;word-spacing: 5% ;font-size: 1.2em; }
+
+.nav-link{ padding-bottom: 2%;    }
+.documentation{font-size: 1.2em;padding-left: 5%;}
+nav a {border-bottom-style: double; text-decoration: none;text-overflow: clip; padding-top: 4%;padding-bottom: 3% ; color: #4D4E53; padding-left: 5%; display: block;  }
+
+nav a:link {color: #000000;  } 
+nav a:visited {color: #000000;  }
+nav a:hover {color: #000000;  }
+nav a:focus {color: #000000;  }
+nav a:active {color: #000000;  }
