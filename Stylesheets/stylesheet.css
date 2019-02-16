@@ -15,7 +15,7 @@ br {margin-bottom: 1%;background-color: red;}
 ul{ line-height: 2em;word-spacing: 5% ;font-size: 1.2em; }
 
 .nav-link{ padding-bottom: 2%;    }
-.documentation{font-size: 1.2em;padding-left: 5%;}
+.documentation{font-size: 1.2em;padding-left: 5%; padding-top: 3%}
 nav a {border-bottom-style: double; text-decoration: none;text-overflow: clip; padding-top: 4%;padding-bottom: 3% ; color: #4D4E53; padding-left: 5%; display: block;  }
 
 nav a:link {color: #000000;  } 
